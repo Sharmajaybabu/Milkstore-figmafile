@@ -1,6 +1,6 @@
 import React from "react";
 import img3 from "./assests/broken.jpg";
-import iphone from "./assests/iphone.jpg";
+import mphone from "./assests/Iphone.jpg";
 import bottlemilk from "./assests/imagebottle.png";
 import Appstore from "./assests/appstore.jpg";
 import playstore from "./assests/playstore.jpg";
@@ -22,7 +22,7 @@ const Hero3 = () => {
       </div>
       </div>
       <div className="rightside">
-        <img src={iphone} alt="" className="iphone"/>
+        <img src={mphone} alt="" className="iphone"/>
         <div className="bottleimg">
         <img src={bottlemilk} alt="" className="bottle"/>
         </div>
