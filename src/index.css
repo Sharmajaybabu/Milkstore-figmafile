@@ -294,7 +294,11 @@
   justify-content: center;
   align-items: center;
   margin-top: 80px;
-  background:linear-gradient(to bottom,rgba(255, 255, 255, 1),rgba(235, 235, 235, 1));
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(235, 235, 235, 1)
+  );
 }
 .mobilebetween {
   width: 100%;
@@ -302,7 +306,7 @@
   display: flex;
   /* border: 1px solid black; */
   justify-content: center;
-  margin-bottom: 100px
+  margin-bottom: 100px;
 }
 .near {
   text-align: right;
@@ -371,9 +375,8 @@
   background-color: rgba(235, 235, 235, 1);
   /* border: 1px solid rebeccapurple; */
 }
-.content{
+.content {
   text-align: center;
-  
 }
 .hero5 span {
   font-weight: 500;
@@ -385,9 +388,8 @@
   color: #71aa38;
   text-align: center;
   margin-top: 150px;
-
 }
-.hero5 h2{
+.hero5 h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 58px;
@@ -406,25 +408,25 @@
   border-radius: 10px;
   background-color: #ffffff;
 }
-.appbox1 h1{
+.appbox1 h1 {
   margin-top: 10px;
   margin-left: 10px;
 }
-.appbox1 p{
+.appbox1 p {
   margin-left: 10px;
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
 }
-.appbox1{
+.appbox1 {
   position: relative;
 }
-.group1img{
+.group1img {
   position: absolute;
   top: -45px;
   left: 65%;
 }
-.hero6{
+.hero6 {
   width: 100%;
   height: 100%;
   background-color: black;
@@ -434,7 +436,7 @@
 .bg img {
   width: 100%;
 }
-.allscreenshot{
+.allscreenshot {
   width: 100%;
   height: 100%;
   display: flex;
@@ -444,7 +446,7 @@
   top: 7%;
 }
 /* ==================hero 7 css =================*/
-.hero7{
+.hero7 {
   width: 100%;
   height: 100vh;
   /* border: 1px solid red; */
@@ -453,7 +455,7 @@
   align-items: center;
   background-color: rgba(235, 235, 235, 1);
 }
-.hero7leftside>span{
+.hero7leftside > span {
   width: 30%;
   display: inline-block;
   font-weight: 500;
@@ -464,23 +466,23 @@
   color: #71aa38;
   border-bottom: 2px solid #71aa38;
 }
-.hero7leftside h2{
+.hero7leftside h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 58px;
   margin-bottom: 30px;
 }
-.review{
+.review {
   font-weight: 400px;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
   text-transform: capitalize;
 }
-.user{
+.user {
   display: flex;
 }
-.allahalal{
+.allahalal {
   font-weight: 600;
   font-size: 22px;
   line-height: 32px;
@@ -488,19 +490,19 @@
   margin-top: 10px;
   color: #71aa38;
 }
-.finally{
+.finally {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   margin-left: 20px;
   text-transform: capitalize;
 }
-.arrow{
+.arrow {
   display: flex;
   gap: 10px;
   margin-top: 30px;
 }
-.arrow span:nth-child(1){
+.arrow span:nth-child(1) {
   display: inline-block;
   width: 50px;
   text-align: center;
@@ -509,7 +511,7 @@
   font-size: 25px;
   color: #71aa38;
 }
-.arrow span:nth-child(2){
+.arrow span:nth-child(2) {
   display: inline-block;
   width: 50px;
   text-align: center;
@@ -519,3 +521,173 @@
   color: #71aa38;
   background-color: #ffffff;
 }
+/*=============hero 8====================*/
+.hero8 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.milkjug {
+  width: 100%;
+  height: 100%;
+}
+.milkjug > img {
+  width: 100%;
+}
+.milk1 > img {
+  width: 100%;
+  height: 100%;
+}
+.milk1 {
+  width: 100%;
+  position: absolute;
+  bottom: -43%;
+}
+.user-form {
+  width: 45%;
+  height: 75%;
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+}
+.contact > span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 5px;
+  color: #71aa38;
+  text-transform: uppercase;
+  border-bottom: 1px solid #71aa38;
+}
+.contact h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: capitalize;
+}
+.form2 {
+  width: 94%;
+  height: 93%;
+  margin: 40px 40px;
+  /* border: 1px solid #71aa38; */
+}
+.formsection {
+  width: 93%;
+  height: 83%;
+  /* border: 1px solid firebrick; */
+}
+.formsection > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 1px solid firebrick; */
+}
+.formsection > form > input:nth-child(3) {
+  width: 100%;
+  padding: 8%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #828282;
+}
+.formsection > form > input:nth-child(2) {
+  width: 100%;
+  padding: 3%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #828282;
+}
+.formsection > form > input:nth-child(1) {
+  width: 100%;
+  padding: 3%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #828282;
+}
+.sendnow {
+  width: 157px;
+  height: 48px;
+  background-color: #71aa38;
+  color: #ebebeb;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(113, 170, 56, 0.5),
+    -5px -5px 5px rgba(113, 170, 56, 0.5);
+}
+/*================footer=================*/
+.footer{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-around;
+  margin-top: 310px;
+  /* border: 1px solid red; */
+  /* margin-bottom: 40px; */
+  background-color: #ebebeb;
+}
+.footerlogo{
+  width: 13%;
+  height: 10%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.footerlist{
+  width: 30%;
+  height: 10%;
+  margin-bottom: 60px;
+  /* border: 1px solid black; */
+}
+.footerlist>ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none; 
+}
+.footerlist>ul>li{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+}
+.footerlist>ul>li:nth-child(2){
+  color: #71aa38;
+}
+.footersmalllogo{
+  width: 10%;
+  height: 10%;
+  /* border: 1px solid black; */
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+/* .footerlogo>img{
+  width: 100%;
+  height: 100%;
+} */
+ .copyright{
+  width: 100%;
+
+  text-align: center;
+  margin-top: 20px;
+  background-color: #ebebeb;
+ }
+ .copyright>span{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+ }

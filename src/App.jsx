@@ -8,6 +8,8 @@ import Hero4 from './components/Hero4'
 import Hero5 from './components/Hero5'
 import Hero6 from './components/Hero6'
 import Hero7 from './components/Hero7'
+import Hero8 from './components/Hero8'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
       <Hero5/>
       <Hero6/>
       <Hero7/>
+      <Hero8/>
+      <Footer/>
     </div>
   )
 }
