@@ -196,24 +196,24 @@
   width: 30px;
   height: 35px;
 }
-.box h5{
+.box h5 {
   font-size: 22px;
   line-height: 32px;
   font-weight: 600;
 }
-.box p{
+.box p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   margin-top: 20px;
   margin-bottom: 80px;
 }
-.h1 h2{
+.h1 h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 58px;
 }
-.h1 p{
+.h1 p {
   font-weight: 500;
   font-size: 15px;
   line-height: 30px;
@@ -222,25 +222,25 @@
   text-decoration: underline;
   color: #71aa38;
 }
-.hero3{
+.hero3 {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.leftside{
+.leftside {
   width: 50%;
   position: absolute;
   left: 5%;
   top: 35%;
 }
-.leftside>h1{
+.leftside > h1 {
   font-weight: 600;
   font-size: 38px;
   line-height: 48px;
   color: #ffffff;
   text-transform: capitalize;
 }
-.leftside p{
+.leftside p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -249,38 +249,273 @@
   margin-bottom: 40px;
   text-transform: capitalize;
 }
-.img2 img{
+.img2 img {
   width: 100%;
 }
-.rightside{
+.rightside {
   width: 50%;
   position: absolute;
   left: 50%;
   top: 30%;
 }
-.iphone{
+.iphone {
   position: relative;
   left: 20%;
 }
-.bottleimg{
+.bottleimg {
   position: absolute;
   /* width: 260px;
   height: 219px; */
   right: 15%;
   bottom: -5%;
 }
-.bottle{
+.bottle {
   width: 260px;
   height: 219px;
   /* border: 1px solid red; */
 }
-.btn1{
+.btn1 {
   width: 205px;
   height: 60px;
   border-radius: 10px;
 }
-.Allbtn{
+.Allbtn {
   width: 50%;
   display: flex;
   gap: 30px;
+}
+
+/* Hero4 css start **/
+.hero4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background:linear-gradient(to bottom,rgba(255, 255, 255, 1),rgba(235, 235, 235, 1));
+}
+.mobilebetween {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  margin-bottom: 100px
+}
+.near {
+  text-align: right;
+}
+.Features {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  margin-bottom: 70px;
+  /* border: 1px solid red; */
+}
+.Features span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 8px;
+  border-bottom: 1px solid #71aa38;
+  color: #71aa38;
+  text-align: center;
+}
+
+.Features h2 {
+  font-weight: 700px;
+  font-size: 45px;
+  line-height: 58px;
+}
+.content1 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.content2 {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.circle {
+  width: 5%;
+  margin: 0 20px;
+  height: 30%;
+  background-color: black;
+}
+.circle:nth-child(even) {
+  width: 20%;
+  height: 10px;
+  border-radius: 50%;
+}
+.circle:nth-child(1) {
+  width: 5%;
+  height: 25%;
+}
+.circle:nth-child(7) {
+  width: 5%;
+  height: 25%;
+}
+/*===========================Hero 5 css start====================*/
+.hero5 {
+  width: 100%;
+  height: 50vh;
+  /* margin-top: 80px; */
+  background-color: rgba(235, 235, 235, 1);
+  /* border: 1px solid rebeccapurple; */
+}
+.content{
+  text-align: center;
+  
+}
+.hero5 span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #71aa38;
+  text-align: center;
+  margin-top: 150px;
+
+}
+.hero5 h2{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+.appbox {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.appbox1 {
+  width: 250px;
+  height: 100px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.appbox1 h1{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.appbox1 p{
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.appbox1{
+  position: relative;
+}
+.group1img{
+  position: absolute;
+  top: -45px;
+  left: 65%;
+}
+.hero6{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  background-color: rgba(235, 235, 235, 1);
+}
+.bg img {
+  width: 100%;
+}
+.allscreenshot{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 7%;
+}
+/* ==================hero 7 css =================*/
+.hero7{
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(235, 235, 235, 1);
+}
+.hero7leftside>span{
+  width: 30%;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #71aa38;
+  border-bottom: 2px solid #71aa38;
+}
+.hero7leftside h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+.review{
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.user{
+  display: flex;
+}
+.allahalal{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #71aa38;
+}
+.finally{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+.arrow{
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.arrow span:nth-child(1){
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 25px;
+  color: #71aa38;
+}
+.arrow span:nth-child(2){
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 25px;
+  color: #71aa38;
+  background-color: #ffffff;
 }
