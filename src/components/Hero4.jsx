@@ -25,10 +25,10 @@ const Hero4 = () => {
             </p>
           </div>
         </div>
-        <div className='content2'>
+        <div className='content2 '>
+          <div className='circle circle1'></div>
           <div className='circle'></div>
-          <div className='circle'></div>
-          <div className='circle'></div>
+          <div className='circle circle3'></div>
           <div className='circle'></div>
           <div className='circle'></div>
           <div className='circle'></div>
@@ -37,8 +37,8 @@ const Hero4 = () => {
         <div className='content3'>
           <img src={iphone14full} alt="" />
         </div>
-        <div className='content4'>
-          <div className='content2'>
+        <div className='content4 content20'>
+          <div className='content2' >
             <div className='circle'></div>
             <div className='circle'></div>
             <div className='circle'></div>
@@ -49,7 +49,7 @@ const Hero4 = () => {
           </div>
         </div>
        
-        <div className='content1'>
+        <div className='content1 content20'>
           <div >
             <p>Near by stores</p>
             <p>Discover Local Stores based on your GPS <br/>location

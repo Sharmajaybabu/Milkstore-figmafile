@@ -20,7 +20,7 @@ const Footer = () => {
         <li>Contact</li>
       </ul>
       <div className='copyright'>
-      <span>Copyright2021 Deonde</span>
+      <span>Copyright&copy;2021 <span className='author'>Jaybabu</span>  </span>
      </div>
      </div>
      <div className='footersmalllogo'>

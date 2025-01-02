@@ -13,11 +13,11 @@ const Hero6 = () => {
       <img src={screenshortly} alt="" />
       </div>
       <div className='allscreenshot'>
-        <img src={image298} alt="" />
-        <img src={image299}alt="" />
-        <img src={Iphone300} alt="" />
-        <img src={image301} alt="" />
-        <img src={image302} alt="" />
+        <img src={image298} alt="" className='hero6block'/>
+        <img src={image299}alt="" className='hero6block'/>
+        <img src={Iphone300} alt="" className='hero6img' />
+        <img src={image301} alt="" className='hero6block'/>
+        <img src={image302} alt="" className='hero6block'/>
       </div>
       <div>
 

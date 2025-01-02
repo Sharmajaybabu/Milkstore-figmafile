@@ -8,7 +8,7 @@ const Hero3 = () => {
   return (
     <div className="hero3">
       <div className="img2">
-        <img src={img3} alt="" />
+        <img src={img3} alt=""  className="brokenimage"/>
       </div>
       <div className="leftside">
         <h1>the innovative way to shop</h1>
@@ -16,10 +16,10 @@ const Hero3 = () => {
           When you join DeliverZe you will enjoy our new and improved way of
           <br /> shopping through our virtual mall experience
         </p>
-      <div className="Allbtn">
-      <img src={playstore} alt="" className="btn1"/>
-      <img src={Appstore} alt="" className="btn1"/>
-      </div>
+        <div className="Allbtn">
+        <img src={playstore} alt="" className="btn1"/>
+        <img src={Appstore} alt="" className="btn1"/>
+        </div>
       </div>
       <div className="rightside">
         <img src={mphone} alt="" className="iphone"/>
