@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="Delivery">Delivery App</h1>
           <p className="para">
             To stay Shead of The Curve, Serve your Customers Through An
-            <br /> On-Demand Food elivery App{" "}
+            <br /> On-Demand Food elivery App
           </p>
         </div>
         <div className="btn">

@@ -23,7 +23,7 @@ const Hero2 = () => {
           <div className="img1">
           <img src={Group2} alt="" />
           </div>
-          <h5>Order From our virtual mall of <br/>Local Stores</h5>
+          <h5 className='order'>Order From our virtual mall of <br/>Local Stores</h5>
           <p>Order from a large variety of local stores <br/>you like and trust for years
           you can’t<br/> typically get delivered.</p>
         </div>

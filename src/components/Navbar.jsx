@@ -6,6 +6,9 @@ const Navbar = () => {
       <div className='navimg'>
         <img src={Logo} alt="" />
       </div>
+      <div className='bar'>
+        <i className="fa-solid fa-bars"></i>
+        </div>
       <div className='Navlist'>
         <ul>
           <li className='home'>Home</li>
